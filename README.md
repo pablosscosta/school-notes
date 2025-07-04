@@ -2,7 +2,7 @@
 
 Sistema web para lançamento e consulta de notas escolares.
 
-Este projeto tem como objetivo praticar o desenvolvimento fullstack com Django + Django REST Framework no backend e React no frontend, aplicando boas práticas, autenticação com JWT e controle de acesso baseado em perfis.
+Este projeto tem como objetivo praticar o desenvolvimento fullstack com Django + Django REST Framework no backend e Vue.js no frontend, aplicando boas práticas, autenticação com JWT e controle de acesso baseado em perfis.
 
 ---
 
@@ -12,7 +12,7 @@ Este projeto tem como objetivo praticar o desenvolvimento fullstack com Django +
 - Django
 - Django REST Framework
 - SimpleJWT
-- React.js (frontend em desenvolvimento)
+- Vue.js 3 + Vue Router + Axios (frontend)
 
 ---
 
@@ -34,6 +34,7 @@ Este projeto tem como objetivo praticar o desenvolvimento fullstack com Django +
 
 - `core/`: app principal com subpastas para organização (models, views, serializers, urls)
 - `school_notes/`: configurações do projeto Django
+- `frontend/`: aplicação Vue.js
 - `venv/`: ambiente virtual (não incluído no repositório)
 - `Documento de Visão – school-notes.md`: especificação inicial do projeto
 
@@ -42,7 +43,8 @@ Este projeto tem como objetivo praticar o desenvolvimento fullstack com Django +
 ## ✅ Status
 
 - [x] Estrutura inicial criada
-- [x] DRF e JWT instalados
+- [x] DRF e JWT instalados e configurados
+- [x] Frontend Vue.js integrado com backend
 - [x] Documento de Visão concluído
 - [ ] Modelos e rotas em desenvolvimento
 
@@ -50,7 +52,7 @@ Este projeto tem como objetivo praticar o desenvolvimento fullstack com Django +
 
 ## 📌 Objetivo educacional
 
-Este projeto tem fins de estudo e prática, com foco em APIs REST, autenticação, organização de código e integração backend + frontend. Todo o código segue convenções modernas para projetos Django.
+Este projeto tem fins de estudo e prática, com foco em APIs REST, autenticação, organização de código e integração backend + frontend. Todo o código segue convenções modernas para projetos Django e Vue.js.
 
 ---
 
